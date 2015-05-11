@@ -1,0 +1,88 @@
+/*
+My customization and over ride of bootstrap default CSS
+after normalize.css and glyphs end around line 1070
+ */
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #fff;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Links customize
+   ================================== */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+
+
+
+/* Images customize
+   ================================== */
+img {
+  vertical-align: middle;
+}
+
+.tglogo {
+	margin-top: 20px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 3px solid #e0e0e0;
+}
+
+h2 {
+	margin-left: 10px;
+}
+
+h4 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+	    width: 1170px;
+  }
+}
